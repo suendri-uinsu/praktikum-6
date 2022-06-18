@@ -30,7 +30,7 @@
             if (isset($_GET['p'])) {
                 include $_GET['p'] . ".php";
             } else {
-                include "main.php";
+                include "main_dash.php";
             }
             ?>
         </section>

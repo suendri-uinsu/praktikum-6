@@ -10,7 +10,7 @@ $rows = $kat->tampil();
 
 <h2>Tambah Produk</h2>
 
-<form action="produk_proses.php" method="POST">
+<form action="produk_proses.php" method="POST" enctype="multipart/form-data">
     <table>
         <tr>
             <td>Kategori</td>
