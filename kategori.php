@@ -25,8 +25,8 @@ $rows = $kat->tampil();
             <td><?php echo $row['kat_id']; ?></td>
             <td><?php echo $row['kat_nama']; ?></td>
             <td><?php echo $row['kat_keterangan']; ?></td>
-            <td><a href="kat_edit.php?id=<?php echo $row['kat_id']; ?>">Edit</a></td>
-            <td><a href="kat_delete.php?id=<?php echo $row['kat_id']; ?>">Delete</a></td>
+            <td><a href="index.php?p=kat_edit&id=<?php echo $row['kat_id']; ?>">Edit</a></td>
+            <td><a href="index.php?p=kat_delete&id=<?php echo $row['kat_id']; ?>">Delete</a></td>
         </tr>
     <?php } ?>
 </table>

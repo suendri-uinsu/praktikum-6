@@ -8,7 +8,11 @@ $rows = $produk->tampil();
 
 ?>
 
-<a href="index.php?p=produk_input">Tambah Produk</a>
+<div class="title">
+    <h2>Data Produk</h2>
+    <a href="index.php?p=produk_input">Tambah Produk</a>
+</div>
+
 <table>
     <tr>
         <th>NO</th>

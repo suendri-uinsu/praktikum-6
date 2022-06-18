@@ -9,6 +9,7 @@ $kat = new Kategori();
 $row = $kat->edit($id);
 ?>
 
+<h2>Edit Kategori</h2>
 
 <form action="kat_proses.php" method="post">
     <input type="hidden" name="kat_id" value="<?php echo $row['kat_id']; ?>">
